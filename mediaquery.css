@@ -1,0 +1,50 @@
+/* ===== TABLET ===== */
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .hero-texto {
+    flex: 1;
+    padding-right: 2rem;
+  }
+
+  .hero-imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card {
+    width: 30%;
+  }
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 1024px) {
+  .navbar {
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  .hero {
+    max-width: 1100px;
+    margin: auto;
+    padding: 4rem 2rem;
+  }
+
+  .sobre,
+  .projetos,
+  .contato {
+    max-width: 1100px;
+    margin: auto;
+    padding: 4rem 2rem;
+  }
+}

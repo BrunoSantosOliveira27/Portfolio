@@ -1,0 +1,196 @@
+/* ===== RESET BÁSICO ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #ffffff;
+  background: #2c2a2a;
+}
+
+/* ===== HEADER / NAVBAR ===== */
+header {
+  background: #111;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 40px;        
+  height: auto;
+  display: block;
+  border-radius: 100%;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.btn-contato {
+  background: #f04e23;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+/* ===== HERO ===== */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  gap: 1.5rem;
+}
+
+.hero-texto h1 {
+  font-size: 2rem;
+  color: #f04e23;
+}
+
+.hero-texto h2 {
+  font-size: 1rem;
+
+}
+
+.hero-texto h3 {
+  font-size: 1rem;
+  font-weight: normal;
+
+}
+
+.hero-texto .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: #f04e23;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-imagem img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ===== SOBRE MIM ===== */
+.sobre {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.sobre h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sobre p {
+  margin-bottom: 1.5rem;
+}
+
+.habilidades {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.habilidade p {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.barra {
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.preenchimento {
+  height: 100%;
+}
+
+.htmlcss { width: 95%; background: #f04e23; }
+.js { width: 85%; background: #f04e23; }
+.uxui { width: 80%; background: #f04e23; }
+
+/* ===== PROJETOS ===== */
+.projetos {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.projetos h2 {
+  margin-bottom: 1.5rem;
+}
+
+.Projetosimg {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contato {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.contato form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contato input,
+.contato button {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.contato input {
+  background: #f1f1f1;
+}
+
+.contato button {
+  background: #f04e23;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
