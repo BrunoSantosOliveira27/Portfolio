@@ -16,25 +16,25 @@ body {
 header {
   background: #111;
   padding: 1rem;
+  justify-content: center;
+  display: flex;
+}
+
+.logo {
+  padding-right: 50px;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-}
-
-.logo {
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: bold;
 }
 
 .logo img {
   width: 40px;        
-  height: auto;
+  height: 40px;
   display: block;
-  border-radius: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .menu {

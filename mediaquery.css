@@ -28,17 +28,44 @@
 }
 
 /* ===== DESKTOP ===== */
-@media (min-width: 1024px) {
+@media (min-width: 1080px) {
+  
+  
   .navbar {
+    display: flex;
     max-width: 1100px;
     margin: auto;
+    padding-left: 300px;
   }
-
+  
   .hero {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     padding: 4rem 2rem;
   }
+
+  .hero-imagem img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero-texto h1 {
+  font-size: 4rem;;
+  color: #f04e23;
+}
+
+.hero-texto h2 {
+  font-size: 2rem;
+
+}
+
+.hero-texto h3 {
+  font-size: 2rem;
+  font-weight: normal;
+
+}
 
   .sobre,
   .projetos,
