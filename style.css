@@ -1,4 +1,4 @@
-/* ===== RESET BÁSICO ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@ body {
   background: #2c2a2a;
 }
 
-/* ===== HEADER / NAVBAR ===== */
 header {
   background: #111;
   padding: 1rem;
@@ -55,7 +54,6 @@ header {
   border-radius: 4px;
 }
 
-/* ===== HOME ===== */
 .home {
   display: flex;
   flex-direction: column;
@@ -96,7 +94,6 @@ header {
   object-fit: cover;
 }
 
-/* ===== SOBRE MIM ===== */
 .sobre {
   padding: 2rem 1rem;
   text-align: center;
@@ -138,7 +135,6 @@ header {
 .js { width: 75%; background: #f04e23; }
 .uxui { width: 70%; background: #f04e23; }
 
-/* ===== PROJETOS ===== */
 .projetos {
   padding: 2rem 1rem;
   text-align: center;
@@ -154,7 +150,6 @@ header {
   gap: 1.5rem;
 }
 
-/* ===== CONTATO ===== */
 .contato {
   padding: 2rem 1rem;
   text-align: center;
@@ -185,7 +180,6 @@ header {
   cursor: pointer;
 }
 
-/* ===== FOOTER ===== */
 footer {
   background: #111;
   color: #fff;
