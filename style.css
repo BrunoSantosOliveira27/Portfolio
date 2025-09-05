@@ -55,8 +55,8 @@ header {
   border-radius: 4px;
 }
 
-/* ===== HERO ===== */
-.hero {
+/* ===== HOME ===== */
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,23 +65,21 @@ header {
   gap: 1.5rem;
 }
 
-.hero-texto h1 {
+.home-texto h1 {
   font-size: 2rem;
   color: #f04e23;
 }
 
-.hero-texto h2 {
+.home-texto h2 {
   font-size: 1rem;
-
 }
 
-.hero-texto h3 {
+.home-texto h3 {
   font-size: 1rem;
   font-weight: normal;
-
 }
 
-.hero-texto .btn {
+.home-texto .btn {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.7rem 1.2rem;
@@ -91,7 +89,7 @@ header {
   border-radius: 5px;
 }
 
-.hero-imagem img {
+.home-imagem img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -136,9 +134,9 @@ header {
   height: 100%;
 }
 
-.htmlcss { width: 95%; background: #f04e23; }
-.js { width: 85%; background: #f04e23; }
-.uxui { width: 80%; background: #f04e23; }
+.htmlcss { width: 85%; background: #f04e23; }
+.js { width: 75%; background: #f04e23; }
+.uxui { width: 70%; background: #f04e23; }
 
 /* ===== PROJETOS ===== */
 .projetos {
@@ -156,6 +154,7 @@ header {
   gap: 1.5rem;
 }
 
+/* ===== CONTATO ===== */
 .contato {
   padding: 2rem 1rem;
   text-align: center;

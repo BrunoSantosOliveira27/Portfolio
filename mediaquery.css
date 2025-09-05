@@ -1,17 +1,16 @@
-/* ===== TABLET ===== */
 @media (min-width: 768px) {
-  .hero {
+  .home {
     flex-direction: row;
     justify-content: center;
     text-align: left;
   }
 
-  .hero-texto {
+  .home-texto {
     flex: 1;
-    padding-right: 2rem;
+    margin-left: 100px;
   }
 
-  .hero-imagem {
+  .home-imagem {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -27,45 +26,48 @@
   }
 }
 
-/* ===== DESKTOP ===== */
-@media (min-width: 1080px) {
-  
-  
+@media (min-width: 1150px) {
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
   .navbar {
     display: flex;
     max-width: 1100px;
-    margin: auto;
-    padding-left: 300px;
   }
   
-  .hero {
+  .home {
     max-width: 1200px;
     margin: auto;
     padding: 4rem 2rem;
   }
 
-  .hero-imagem img {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  object-fit: cover;
-}
+  .home-imagem img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 
-.hero-texto h1 {
-  font-size: 4rem;;
-  color: #f04e23;
-}
+  .home-texto h1 {
+    font-size: 4rem;
+    color: #f04e23;
+  }
 
-.hero-texto h2 {
-  font-size: 2rem;
+  .home-texto h2 {
+    font-size: 2rem;
+  }
 
-}
+  .home-texto h3 {
+    font-size: 2rem;
+    font-weight: normal;
+  }
 
-.hero-texto h3 {
-  font-size: 2rem;
-  font-weight: normal;
-
-}
+  .projetos p {
+    display: block;
+    margin-bottom: 10px;
+  }
 
   .sobre,
   .projetos,
